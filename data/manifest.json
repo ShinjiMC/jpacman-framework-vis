@@ -1,0 +1,807 @@
+[
+  {
+    "sha_id": 1,
+    "sha_text": "6f703ade639d7d2c9a4152e748ad5696595f5226",
+    "commit_date": "2019-01-04T21:58:46Z",
+    "commit_message": "Bump to version 8.1.1.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 2,
+    "sha_text": "a6965083cef5e75102a815cfd7b6f81028ec80a7",
+    "commit_date": "2018-05-09T12:54:28Z",
+    "commit_message": "Fix critical typo",
+    "author_name": "Mees Frensel"
+  },
+  {
+    "sha_id": 3,
+    "sha_text": "51f041d65782a61449b01270d001c7d1d4ccf6f6",
+    "commit_date": "2018-04-30T20:10:37Z",
+    "commit_message": "Remove qualified this in Board.invariant()",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 4,
+    "sha_text": "266a352728c7417fedd2e87c621aa146ae7c388b",
+    "commit_date": "2018-04-30T19:29:12Z",
+    "commit_message": "Make findUnitInBoard static",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 5,
+    "sha_text": "ee117274f26b8928fae0b00a5fae7f97135b7c24",
+    "commit_date": "2018-04-30T19:23:35Z",
+    "commit_message": "Remove ParameterizedAssignment.java",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 6,
+    "sha_text": "577165e69c259281b9cffd26467ff5fe1cb6e486",
+    "commit_date": "2018-04-30T19:22:22Z",
+    "commit_message": "Rename playerDestination to destination",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 7,
+    "sha_text": "933c58de5cea1feb813c4947c6297e6f332df2b4",
+    "commit_date": "2018-04-30T19:17:10Z",
+    "commit_message": "Extract methods from ghostMapParser into the framework",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 8,
+    "sha_text": "c0751a4d1da877175defd6fa7b93378c8288c640",
+    "commit_date": "2018-04-24T11:56:55Z",
+    "commit_message": "Bashful -> Inky",
+    "author_name": "Gijs Weterings"
+  },
+  {
+    "sha_id": 9,
+    "sha_text": "482e82ba5c99d0b3e5de4752d6ddff7993a219cd",
+    "commit_date": "2018-04-24T11:49:23Z",
+    "commit_message": "Remove references to home corners",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 10,
+    "sha_text": "52e1078ced68c35ff408ec953a02ff7f57d76ac3",
+    "commit_date": "2018-04-24T11:42:25Z",
+    "commit_message": "Make clyde's and inky's jdoc less confusing",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 11,
+    "sha_text": "9cc5e882821f39a42550ed3cbf282b2ecc1bcde0",
+    "commit_date": "2018-04-23T08:21:25Z",
+    "commit_message": "Make find unit return the specific type",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 12,
+    "sha_text": "721c653873066f291e128c0f48a562e5029f2635",
+    "commit_date": "2018-04-22T20:28:12Z",
+    "commit_message": "Fixes for ghost ai logic",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 13,
+    "sha_text": "a2674dbe2e9c11199295e6b5e375ab21bfa44b39",
+    "commit_date": "2018-04-22T18:59:17Z",
+    "commit_message": "Remove unit from the ghost hierarchy",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 14,
+    "sha_text": "70c0f319fdad09339a099240c6021905aeb674ba",
+    "commit_date": "2018-04-22T18:19:16Z",
+    "commit_message": "Fix checkstyle warnings",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 15,
+    "sha_text": "fb70881a2ff293e927bb3c72831a08d8589c4bd5",
+    "commit_date": "2018-04-22T16:41:51Z",
+    "commit_message": "Extract random moves into the ghost superclass",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 16,
+    "sha_text": "621f3dc817a6bcd4162d6259b24864a38e50a3e7",
+    "commit_date": "2018-04-21T13:34:44Z",
+    "commit_message": "Add javadocs to example system test.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 17,
+    "sha_text": "6d236db64cb7ea3f64716d929bf28785b80d1d3b",
+    "commit_date": "2018-04-21T13:31:47Z",
+    "commit_message": "Use suppress warnings from spot/findbugs.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 18,
+    "sha_text": "fabf836e6fed0009ef86086a722f90a07d1da970",
+    "commit_date": "2018-04-21T12:26:23Z",
+    "commit_message": "Fix spotbugs reporting and suppress resource warning",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 19,
+    "sha_text": "9a4dd1d1c077ac0a3d71dd302890f45292f80395",
+    "commit_date": "2018-04-21T11:57:06Z",
+    "commit_message": "Remove now redundant warning suppression",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 20,
+    "sha_text": "ac1c4da2d446017f224a538d370b18997373fce6",
+    "commit_date": "2018-04-21T09:07:34Z",
+    "commit_message": "Removal of the checker framework",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 21,
+    "sha_text": "bfff088a5ffb051787d0812985c6542ad58b9bc5",
+    "commit_date": "2018-04-21T08:48:06Z",
+    "commit_message": "StartupSystemTest as an example",
+    "author_name": "Mauricio Aniche"
+  },
+  {
+    "sha_id": 22,
+    "sha_text": "abe1128796cbaedf121be9407559863684225a5e",
+    "commit_date": "2018-04-11T06:37:37Z",
+    "commit_message": "Suppress pmd warning on storing array directly.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 23,
+    "sha_text": "52b5d31e02800fedd0761962461879a261825e03",
+    "commit_date": "2018-04-08T18:47:39Z",
+    "commit_message": "Update javadoc to reflect stronger precondition of getSquare.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 24,
+    "sha_text": "e2f78c3e563ae0fb7b370d8dc0139bfcf3589ece",
+    "commit_date": "2018-04-08T18:47:39Z",
+    "commit_message": "Use SuppressWarnings annotation for checkstyle.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 25,
+    "sha_text": "930b02a9dc6d2d5c9d5718762c861f46cbcec932",
+    "commit_date": "2018-04-08T18:47:38Z",
+    "commit_message": "Update pmd rule sets to new \"best practices\" category.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 26,
+    "sha_text": "dacbc1d20defd5c2256a38a306a1b7d1fd49fc30",
+    "commit_date": "2017-04-24T20:15:01Z",
+    "commit_message": "Add missing JavaDoc to MapParser",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 27,
+    "sha_text": "b029f50cbff69b8fa465866cd2a54b9baa1599a7",
+    "commit_date": "2017-04-24T20:07:15Z",
+    "commit_message": "Replace tabs with spaces",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 28,
+    "sha_text": "12dfd0e46eee5160cf043955f91e229e2965f796",
+    "commit_date": "2017-04-24T12:53:29Z",
+    "commit_message": "Move resource handling from Launcher to MapParser.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 29,
+    "sha_text": "0335b58719e43528d469e1c25651f99d6d091527",
+    "commit_date": "2017-04-24T12:53:29Z",
+    "commit_message": "Convert tabs to spaces.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 30,
+    "sha_text": "9db03a091aad503e14437d240ad12fd688353374",
+    "commit_date": "2017-04-24T12:53:29Z",
+    "commit_message": "Make addSquare open for extension.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 31,
+    "sha_text": "cd3315151565acbfa6b722671aa17c2cd819c8ee",
+    "commit_date": "2017-04-24T12:53:29Z",
+    "commit_message": "Convert tabs to spaces and cleanup layout.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 32,
+    "sha_text": "e773e3ef62fee4d5bb7adaf943155c14783b27c5",
+    "commit_date": "2017-04-24T08:06:47Z",
+    "commit_message": "Update annotation usage example to JUnit 5.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 33,
+    "sha_text": "d257f4bfac8be91e92bc71e20241ed5e07894e44",
+    "commit_date": "2017-04-24T07:58:01Z",
+    "commit_message": "Adopt JUnit 5 ParameterizedTest as an example.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 34,
+    "sha_text": "a9f5f65b518694167c67488596b508a60d4be220",
+    "commit_date": "2017-04-23T22:01:00Z",
+    "commit_message": "Improve readability of directions in PacManSprites",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 35,
+    "sha_text": "3a051551fb94ba1f7c9d05e4d18e59d7ef673991",
+    "commit_date": "2017-04-23T22:01:00Z",
+    "commit_message": "Remove unnecessary empty lines from PlayerCollisions",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 36,
+    "sha_text": "9336290ff4ad518ffd94755e38cdce5029994497",
+    "commit_date": "2017-04-23T22:01:00Z",
+    "commit_message": "Fix indentation of createGhost in LevelFactory",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 37,
+    "sha_text": "2d15bdc2c0692da6c0c84c99cc7856a4d085118d",
+    "commit_date": "2017-04-23T22:01:00Z",
+    "commit_message": "Remove unnecessary abbreviations and line breaks",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 38,
+    "sha_text": "aaff5cca54a894148a28fbb6bae236ad38b81026",
+    "commit_date": "2017-04-23T22:00:00Z",
+    "commit_message": "Fix player factory abbreviation in GameFactory",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 39,
+    "sha_text": "9d0a4d4f47cddeb97f4fff80576400685b9f1dcd",
+    "commit_date": "2017-04-23T22:00:00Z",
+    "commit_message": "Remove else case in Launcher",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 40,
+    "sha_text": "75dc813bf2015ed777435d1315a4f316826ced9d",
+    "commit_date": "2017-04-23T20:47:59Z",
+    "commit_message": "Handle various code improvements (use lambdas).",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 41,
+    "sha_text": "fa21f880b7593e99452f63369e55b29a238e5ac1",
+    "commit_date": "2017-04-23T19:47:22Z",
+    "commit_message": "Fix Javadoc of Ground class",
+    "author_name": "Casper Boone"
+  },
+  {
+    "sha_id": 42,
+    "sha_text": "1db187771b8086e2d37de11d86c3dd25ab7b696c",
+    "commit_date": "2017-04-23T19:42:42Z",
+    "commit_message": "Move Startup scenario to dedicated folder.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 43,
+    "sha_text": "c038ca224b1b3d390ebe960249641377ec178edf",
+    "commit_date": "2017-04-23T10:49:31Z",
+    "commit_message": "There is no need to annotate local variables",
+    "author_name": "Michael Ernst"
+  },
+  {
+    "sha_id": 44,
+    "sha_text": "3a00d5b84ba67bcf9d104b389ca0dea7167ff90a",
+    "commit_date": "2017-04-22T20:30:33Z",
+    "commit_message": "Add explanation of receiver parameter this and its annotation.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 45,
+    "sha_text": "0fa1f53e9f8f31d58c6fc111c5ebba620a723cc2",
+    "commit_date": "2017-04-22T10:27:29Z",
+    "commit_message": "Merge branch 'master' into cucumber",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 46,
+    "sha_text": "50ba49f9e052e6167a1d72f7daf1356ec8c7deb4",
+    "commit_date": "2017-04-22T10:16:57Z",
+    "commit_message": "Suppress warnings for test utilities.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 47,
+    "sha_text": "35bf32dba09c0f1da7f60169c897d69b8fbc9b40",
+    "commit_date": "2017-04-22T10:06:52Z",
+    "commit_message": "Revert \"Disable checks for JUnit test cases.\"",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 48,
+    "sha_text": "da3909961f50365eb49d18f1cdd979994a282789",
+    "commit_date": "2017-04-22T10:06:52Z",
+    "commit_message": "Revert \"Put warning suppression in a smaller scope\"",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 49,
+    "sha_text": "568eb31487f706b02c8a3e03148b1f8b2a5b7253",
+    "commit_date": "2017-04-22T08:59:21Z",
+    "commit_message": "Avoid using static game variable.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 50,
+    "sha_text": "91709e88cd0dad3610c0a1ec1e3a1d4966fa2928",
+    "commit_date": "2017-04-22T08:59:21Z",
+    "commit_message": "Move startup feature to folder unique to framework.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 51,
+    "sha_text": "1fd10db14ec40b6ac432f04dc613cf70e60d8bfe",
+    "commit_date": "2017-04-22T08:59:21Z",
+    "commit_message": "Use story IDs as tags and repackage to create glue.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 52,
+    "sha_text": "afc2c2dcca3bae39587967fb88e7981d71b6d3dc",
+    "commit_date": "2017-04-21T19:01:09Z",
+    "commit_message": "Put warning suppression in a smaller scope",
+    "author_name": "Michael Ernst"
+  },
+  {
+    "sha_id": 53,
+    "sha_text": "dbc23c48aff219f98265b7ab3a96bc1352356787",
+    "commit_date": "2017-04-21T19:00:51Z",
+    "commit_message": "Explain warning suppression more specifically",
+    "author_name": "Michael Ernst"
+  },
+  {
+    "sha_id": 54,
+    "sha_text": "6e80e3ed6a3be75da99789e67d1e003f968dd27e",
+    "commit_date": "2017-04-21T18:46:09Z",
+    "commit_message": "Move more type annotations to be on types",
+    "author_name": "Michael Ernst"
+  },
+  {
+    "sha_id": 55,
+    "sha_text": "9e1ec658e4026c5261eacff37e1594b44bc2f221",
+    "commit_date": "2017-04-21T17:27:16Z",
+    "commit_message": "Add annotation, eliminate need for assertion",
+    "author_name": "Michael Ernst"
+  },
+  {
+    "sha_id": 56,
+    "sha_text": "803f301412bfdb7e56fe12f5ac047b0fed0b7761",
+    "commit_date": "2017-04-21T17:25:27Z",
+    "commit_message": "Write type annotations before types, without intervening method modif…",
+    "author_name": "Michael Ernst"
+  },
+  {
+    "sha_id": 57,
+    "sha_text": "9da1cb15b7c90973217fd2a46b7bf2ceba023b83",
+    "commit_date": "2017-04-21T17:16:30Z",
+    "commit_message": "Remove an occurrence of @SuppressWarnings(\"initialization\")",
+    "author_name": "Michael Ernst"
+  },
+  {
+    "sha_id": 58,
+    "sha_text": "7e5cf67e8c5a301be6c2110727632557bb624ed8",
+    "commit_date": "2017-04-21T17:02:02Z",
+    "commit_message": "Use fewer untrusted assertions for Launcher.game",
+    "author_name": "Michael Ernst"
+  },
+  {
+    "sha_id": 59,
+    "sha_text": "08094ddd8b347fbbf02efa70ff395def6d675367",
+    "commit_date": "2017-04-13T15:33:43Z",
+    "commit_message": "Fix open checkstyle issues.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 60,
+    "sha_text": "f7aaf4cf4fe174f633c67f252307cff25a2380b7",
+    "commit_date": "2017-04-11T18:52:08Z",
+    "commit_message": "Disable checks for JUnit test cases.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 61,
+    "sha_text": "76b54a3bacc83ff0b991d9272d601299a5a3e3f3",
+    "commit_date": "2017-04-11T18:52:07Z",
+    "commit_message": "Strengthen asserts to help the checker framework.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 62,
+    "sha_text": "362842c59a5ed0eeaf5d70a8fa8e093cea040084",
+    "commit_date": "2017-04-11T18:52:07Z",
+    "commit_message": "Suppress invariant related warnings",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 63,
+    "sha_text": "63037b241a17acce94b59e5d4d68673e6fc014c8",
+    "commit_date": "2017-04-11T18:52:07Z",
+    "commit_message": "Check if map resource returned is null.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 64,
+    "sha_text": "787b4ab7d6dbdabb8d51e720ec90c2a82c024759",
+    "commit_date": "2017-04-11T18:52:07Z",
+    "commit_message": "Make nextMove consistently Nullable.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 65,
+    "sha_text": "722a0381b258981cb40c308c810d16d6d4c6d844",
+    "commit_date": "2017-04-11T18:52:07Z",
+    "commit_message": "Ignore initialization warnings in invariants.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 66,
+    "sha_text": "ec05a846704100f81d48f5394996d5a6021de3c5",
+    "commit_date": "2017-04-11T18:52:07Z",
+    "commit_message": "Ignore initialization warnings for Swing objects.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 67,
+    "sha_text": "9b31ed2047486b77ddb9460fbcc65db3be48a534",
+    "commit_date": "2017-04-11T18:52:07Z",
+    "commit_message": "Clean up null handling in launcher.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 68,
+    "sha_text": "fc2d4d9e2c560a1cc369ee569fa10a25e556d9f1",
+    "commit_date": "2017-04-11T18:51:54Z",
+    "commit_message": "Adopt null checks from checker framework.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 69,
+    "sha_text": "79ca5d52f47cfb1e298bbd46245b35a79980b441",
+    "commit_date": "2017-04-08T20:37:26Z",
+    "commit_message": "Make tests/classes package visible instead of public.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 70,
+    "sha_text": "c5b03c21be1ada6f76237e872e4de4bf58278336",
+    "commit_date": "2017-04-06T12:39:05Z",
+    "commit_message": "Simplify world-is-round test.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 71,
+    "sha_text": "09c731676c489f26fe8deccfdcf4c232d81f3d16",
+    "commit_date": "2017-03-26T18:14:03Z",
+    "commit_message": "Drop Cobertura in favor of jacoco.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 72,
+    "sha_text": "3cf5a13d6d74e7fbe117aa872e3ebb5edeb4e6ec",
+    "commit_date": "2017-03-26T17:25:04Z",
+    "commit_message": "Adopt AssertJ for null check.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 73,
+    "sha_text": "5aea7daa6f48f604500c2710de1d58b573ec78b8",
+    "commit_date": "2017-03-26T13:40:04Z",
+    "commit_message": "Adopt JUnit5 for SpriteTest",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 74,
+    "sha_text": "2dd485d1f5a932bf5c2b3560bfc81470d060140c",
+    "commit_date": "2016-12-29T12:44:22Z",
+    "commit_message": "Adopt JUnit5 and AssertJ in Smoke Test.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 75,
+    "sha_text": "859a083edba9f036ab21b7a560d4dbb258d7642c",
+    "commit_date": "2016-12-29T12:29:27Z",
+    "commit_message": "Adopt JUnit5 and AssertJ to LevelTest",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 76,
+    "sha_text": "a818845f85fd8c38dc4d119789519cc242e7ea1e",
+    "commit_date": "2016-12-25T15:16:42Z",
+    "commit_message": "Adopt JUnit 5 for NavigationTests.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 77,
+    "sha_text": "f3f34e0ed7d18ad1df58587bea3c7e24ce43738b",
+    "commit_date": "2016-12-25T15:16:28Z",
+    "commit_message": "Adopt JUnit5 on BoardFactoryTest.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 78,
+    "sha_text": "af301553d30a31828a7955e29b921ee4b48ba4b3",
+    "commit_date": "2016-12-14T14:34:57Z",
+    "commit_message": "Adopt JUnit5 DynamicTests to test getting squares from board.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 79,
+    "sha_text": "0f0af0de746b8a3b20df138dd2d619a5928bf281",
+    "commit_date": "2016-12-12T18:46:56Z",
+    "commit_message": "Adopt JUnit5 in OccupantTest.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 80,
+    "sha_text": "052614e3bbbcb084ceecea365c40718f7ccbced1",
+    "commit_date": "2016-12-11T19:32:40Z",
+    "commit_message": "Adopt JUnit 5 for SquareTest",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 81,
+    "sha_text": "f1fbd2872394d3f4296f008270582cf48674b35b",
+    "commit_date": "2016-12-11T15:25:25Z",
+    "commit_message": "Use AssertJ for assertions on list.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 82,
+    "sha_text": "437f42d555a77a49a5d118bf4c269cce6777f771",
+    "commit_date": "2016-07-17T14:36:46Z",
+    "commit_message": "addSinglePlayerKeys small refactoring",
+    "author_name": "Miguel Mendes"
+  },
+  {
+    "sha_id": 83,
+    "sha_text": "d46d8cb5381c7a14dea237f364a9a70bdc7ad0e7",
+    "commit_date": "2016-04-23T14:57:38Z",
+    "commit_message": "Drop Hamcrest in favor of AssertJ",
+    "author_name": "Tim van der Lippe"
+  },
+  {
+    "sha_id": 84,
+    "sha_text": "7f6ab45bae7d4ec2c4d49f764b04bcaf060196a6",
+    "commit_date": "2016-04-23T13:55:08Z",
+    "commit_message": "Fix issues reported by intellij inspect code",
+    "author_name": "Tim van der Lippe"
+  },
+  {
+    "sha_id": 85,
+    "sha_text": "b114c7234c2214f0c0bec1815bb473f97aaf78fa",
+    "commit_date": "2016-04-23T12:47:45Z",
+    "commit_message": "Fix Javadoc of ParameterizedAssignment",
+    "author_name": "Tim van der Lippe"
+  },
+  {
+    "sha_id": 86,
+    "sha_text": "9f427ab75388c5d6fafd2d69de3e40868db680fe",
+    "commit_date": "2016-04-23T12:37:12Z",
+    "commit_message": "Fix findbugs warnings",
+    "author_name": "Tim van der Lippe"
+  },
+  {
+    "sha_id": 87,
+    "sha_text": "9a511a2b782fd4e2311d9887f18b33eb85306a4d",
+    "commit_date": "2016-04-20T14:48:41Z",
+    "commit_message": "Fix duplication in ghost interval calculation",
+    "author_name": "Tim van der Lippe"
+  },
+  {
+    "sha_id": 88,
+    "sha_text": "deb3004d702bcf89a2d2fe466065f571edb0313c",
+    "commit_date": "2016-04-20T14:13:01Z",
+    "commit_message": "Suppress non-useful PMD warnings",
+    "author_name": "Tim van der Lippe"
+  },
+  {
+    "sha_id": 89,
+    "sha_text": "bfa3b069c6fa5e219f4338fa74ffce9889577164",
+    "commit_date": "2016-04-19T12:32:48Z",
+    "commit_message": "added an example for th estudents in the javadoc of the Parameterized…",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 90,
+    "sha_text": "4ec7f0aefe5fe65cc7418cb036f2ff9611579975",
+    "commit_date": "2016-04-18T18:54:29Z",
+    "commit_message": "Made the map used configurable to ease testing.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 91,
+    "sha_text": "7404d222486fd29dbbccf17aa0a96ed60c888056",
+    "commit_date": "2016-04-18T10:42:20Z",
+    "commit_message": "Fixed reference to obsolete Stepdef class.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 92,
+    "sha_text": "c3f6e1d5cfab3163c005fc20e9f7ecf12e980deb",
+    "commit_date": "2016-04-18T10:01:20Z",
+    "commit_message": "Added a simple Cucumber test.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 93,
+    "sha_text": "96eec20b76582a924ce58ef7d54617510eb2666d",
+    "commit_date": "2016-04-10T19:43:57Z",
+    "commit_message": "Fixed design problems found by PMD.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 94,
+    "sha_text": "0256ae713a1b4f10f786bc6260969ed297b5d06e",
+    "commit_date": "2016-04-10T16:03:43Z",
+    "commit_message": "Fixed open checkstyle warnings.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 95,
+    "sha_text": "08917590fb18fab22643bc70d827b248c8211b3c",
+    "commit_date": "2016-04-09T07:48:50Z",
+    "commit_message": "Simplified observers by turning them into a Set rather than List.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 96,
+    "sha_text": "d38d074d5309bea357630d06ffb448a31cfb2b31",
+    "commit_date": "2016-04-09T07:43:49Z",
+    "commit_message": "Added positivity test to nr of pellets.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 97,
+    "sha_text": "dbf1067ce3a357b80a6f202eb79be6a01db49ad4",
+    "commit_date": "2016-04-09T07:42:01Z",
+    "commit_message": "Added non-null assertions to sprite handling.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 98,
+    "sha_text": "6a6e8742874d930dfb606fcd3ac7efd374ffc76f",
+    "commit_date": "2016-04-09T07:35:33Z",
+    "commit_message": "Removed exception constructor without message.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 99,
+    "sha_text": "e5bb91eda171b7323dc2bedd4ecedfdfe4f10604",
+    "commit_date": "2016-04-09T07:29:08Z",
+    "commit_message": "Removed unused move methods.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 100,
+    "sha_text": "343370af437776b5d11a048db657f316cdad83a5",
+    "commit_date": "2016-04-09T07:24:57Z",
+    "commit_message": "Simplified occupying a board.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 101,
+    "sha_text": "ac7b8059310a4fb7e6735d6b70c739d8deea47cb",
+    "commit_date": "2016-01-09T20:47:15Z",
+    "commit_message": "updated the package declaration",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 102,
+    "sha_text": "c1206257e97c2f5d6458a910fae40107935f2b50",
+    "commit_date": "2016-01-09T20:41:39Z",
+    "commit_message": "added the ParameterizedAssignment annotation",
+    "author_name": "LiamClark"
+  },
+  {
+    "sha_id": 103,
+    "sha_text": "33207397f816f9a8eef32ba8ffd6cb08c6fed6d3",
+    "commit_date": "2015-06-17T12:54:12Z",
+    "commit_message": "Enable Player subclassing.",
+    "author_name": "Lars Stegman"
+  },
+  {
+    "sha_id": 104,
+    "sha_text": "d2ccb89559a5c39d07cb5c4b616501af2d73933b",
+    "commit_date": "2015-06-08T06:25:48Z",
+    "commit_message": "Opening up the score panel for extension.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 105,
+    "sha_text": "cfc3617344fded3adc64a0fa2b12e392553150cd",
+    "commit_date": "2015-06-08T06:25:48Z",
+    "commit_message": "Suppressed warnings about duplicate strings in map testing.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 106,
+    "sha_text": "e4c734466053cef990eafd934199af4e1c101960",
+    "commit_date": "2015-06-08T06:25:47Z",
+    "commit_message": "Suppress no assert violations for mock tests.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 107,
+    "sha_text": "280ecbdc8bd9678f4c1b2db87f2ffcbdd8e82557",
+    "commit_date": "2015-06-08T06:25:47Z",
+    "commit_message": "Renamed setup to setUp to be consistent with PMD.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 108,
+    "sha_text": "f5dba1fdca749b65dccb068d3147af10b819174d",
+    "commit_date": "2015-05-13T11:06:40Z",
+    "commit_message": "Added symmetry to PlayerCollisions.",
+    "author_name": "Maarten Sijm"
+  },
+  {
+    "sha_id": 109,
+    "sha_text": "5dc73216c23a4f51ae89b4045b0e2f5525fd10b7",
+    "commit_date": "2015-05-12T18:46:31Z",
+    "commit_message": "Suppress long method checkstyle warning for smoke test.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 110,
+    "sha_text": "6c1deba8c0e1bff92af26b3f21e5078d85eba41a",
+    "commit_date": "2015-05-12T18:44:47Z",
+    "commit_message": "Suppress magic number warnings in tests.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 111,
+    "sha_text": "e14adebcbc6363f46ef5951430b7876f4f3818ff",
+    "commit_date": "2015-04-15T18:42:55Z",
+    "commit_message": "Made arrays local by cloning them first [findbugs]",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 112,
+    "sha_text": "c51175d3a4656e219ef46e3eb0e13ced90bb3cb9",
+    "commit_date": "2015-04-15T18:42:35Z",
+    "commit_message": "Specified character encoding [findbugs]",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 113,
+    "sha_text": "eb45340acb9e89f3030a0a6418b370dabf548bb2",
+    "commit_date": "2015-04-15T18:41:47Z",
+    "commit_message": "Made inner classes static where possible [findbugs]",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 114,
+    "sha_text": "04f41095fef08b84d46cdfd01717b9d0c7e037eb",
+    "commit_date": "2015-04-14T22:25:17Z",
+    "commit_message": "Fixed potential problem with closing board stream.",
+    "author_name": "Arie van Deursen"
+  },
+  {
+    "sha_id": 115,
+    "sha_text": "d02774078e4af91b82038de1bd3c6a35eed793c8",
+    "commit_date": "2015-04-13T21:42:48Z",
+    "commit_message": "Handled various checkstyle warnings.",
+    "author_name": "Arie van Deursen"
+  }
+]
